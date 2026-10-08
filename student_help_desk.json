@@ -1,0 +1,527 @@
+[
+  {
+    "id": "faq-001",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "How do I enroll in a course?",
+    "answer": "Open the course page, review the description and prerequisites, and click the enrollment button. If the course has a payment or approval step, complete that step first and keep the confirmation email for your records."
+  },
+  {
+    "id": "faq-002",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "I want to join a course, but I don't see the enrollment button.",
+    "answer": "The enrollment button usually appears only when the course is open for registration. Check whether the course has a start date, prerequisites, or limited seats. If the option is still missing, contact the course provider or registrar and ask whether the course is accepting new students."
+  },
+  {
+    "id": "faq-003",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "What should I do if I'm waitlisted for a course?",
+    "answer": "Waitlists are handled by the course provider. Check your email and the course page for updates, and make sure your contact information is current. If the course is still full, ask whether there is an alternate section or a future start date."
+  },
+  {
+    "id": "faq-004",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "How do I check whether I meet the prerequisites?",
+    "answer": "Read the prerequisites section on the course page and compare it to your background. If you are unsure whether a requirement applies to you, contact the provider before enrolling so you do not waste time on a course you are not ready for."
+  },
+  {
+    "id": "faq-005",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "Can I change my course selection after enrolling?",
+    "answer": "Some providers allow enrollment changes before the course starts, while others do not. Check the change-of-enrollment policy on the course page or contact support with your course name and student ID so they can confirm your options and deadlines."
+  },
+  {
+    "id": "faq-006",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "I paid for the course, but I still can't access it.",
+    "answer": "First, confirm that the payment went through and that you received a confirmation email. Then log out and back in, refresh the page, and check whether the course appears in your enrolled courses section. If it still does not appear, contact the provider with your order number and email address."
+  },
+  {
+    "id": "faq-007",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "I can't log in to my course account.",
+    "answer": "Use the reset password link on the sign-in page and confirm that you are using the correct email address. If the reset email does not arrive, check your spam folder and verify that the account was created with the same address used during enrollment."
+  },
+  {
+    "id": "faq-008",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "The course page loads, but the videos won't play.",
+    "answer": "Try refreshing the page, checking your internet connection, and updating your browser. If the problem continues, it may be a temporary platform issue. Clear your browser cache or try a different browser, then contact support if the lesson still will not load."
+  },
+  {
+    "id": "faq-009",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "I am getting an error message when I open the course.",
+    "answer": "Take a screenshot of the error message and note the time it happened. Then try a different browser or a private/incognito window. If the issue persists, send the screenshot and the course name to the support team so they can investigate the platform problem."
+  },
+  {
+    "id": "faq-010",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "Why is my assignment page showing as unavailable?",
+    "answer": "Assignments often become available only after the lesson or module opens. Check the course schedule, make sure the required lecture or reading is complete, and confirm you are in the right course section. If the page still appears unavailable, contact the instructor or the platform support team."
+  },
+  {
+    "id": "faq-011",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "I keep getting a 404 error on the course site.",
+    "answer": "A 404 usually means the page link is outdated or the course content is still being published. Try opening the course homepage and navigating from there instead of using a bookmarked link. If the issue continues, report it with the exact URL and the browser you are using."
+  },
+  {
+    "id": "faq-012",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "The platform is slow or freezing during class.",
+    "answer": "Close other browser tabs, restart the app, and check whether your internet connection is stable. If the issue only happens in one browser, switch to another browser or use the mobile app. If the platform remains slow, report the problem with the time and course name."
+  },
+  {
+    "id": "faq-013",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "Can I use my phone to complete the course?",
+    "answer": "Many courses support mobile access, but some features such as videos, downloads, or quizzes may work better on a desktop or laptop. Check the course page for device requirements, and use the mobile app for viewing while keeping a browser available for assignments."
+  },
+  {
+    "id": "faq-014",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "I was charged twice for the same course.",
+    "answer": "Contact the billing team and provide the payment dates, amount, and the last four digits of the card used. They can check whether the duplicate charge is a pending authorization or an actual second payment. Keep any email confirmation you received from the course provider."
+  },
+  {
+    "id": "faq-015",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "I need a receipt for my course payment.",
+    "answer": "Open your account billing section or order history and download the receipt from there. If the receipt is missing, contact billing support with your name, course title, and the date of payment. The provider can usually resend a copy by email."
+  },
+  {
+    "id": "faq-016",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "What is the refund policy for a course?",
+    "answer": "Refund rules vary by provider and by the course. Check the refund policy on the course page or in your order confirmation, and look for the deadline to request a refund. If you think you qualify, contact support as soon as possible with your enrollment details."
+  },
+  {
+    "id": "faq-017",
+    "course": "student-help-desk",
+    "section": "Deadlines and Extensions",
+    "question": "When is the deadline to drop a course?",
+    "answer": "The drop deadline is usually listed on the course page or in your student dashboard. If the deadline is not obvious, check the academic calendar or ask support for the exact date for your specific course, since deadlines can vary by session or provider."
+  },
+  {
+    "id": "faq-018",
+    "course": "student-help-desk",
+    "section": "Deadlines and Extensions",
+    "question": "Can I get an extension on an assignment?",
+    "answer": "Extensions may be granted only before the deadline and only under certain circumstances. Contact the instructor or course support as soon as possible and explain the situation. Include the assignment name, your course title, and any supporting information the provider requires."
+  },
+  {
+    "id": "faq-019",
+    "course": "student-help-desk",
+    "section": "Deadlines and Extensions",
+    "question": "I missed the deadline. Is there anything I can do?",
+    "answer": "It depends on the course policy and whether the deadline has already passed. Check the course page, contact the instructor, or send a support request explaining what happened. Some courses allow late submissions for a limited time, while others do not."
+  },
+  {
+    "id": "faq-020",
+    "course": "student-help-desk",
+    "section": "Certificates and Completion",
+    "question": "How do I get my certificate after finishing the course?",
+    "answer": "Complete every required lesson, quiz, or assignment, then check the course completion page. Once the system marks the course as complete, the certificate option usually appears in your profile or learning dashboard. If it does not appear, contact support with the course name and completion date."
+  },
+  {
+    "id": "faq-021",
+    "course": "student-help-desk",
+    "section": "Certificates and Completion",
+    "question": "My certificate is not showing up in my account.",
+    "answer": "Wait a few hours and refresh your profile page, since certificates may take time to generate. If it still does not appear, confirm that you completed all required activities and then contact support with your course name and account email."
+  },
+  {
+    "id": "faq-022",
+    "course": "student-help-desk",
+    "section": "Student Records",
+    "question": "How do I update my email address or profile information?",
+    "answer": "Go to your account settings or profile page and update your contact details. If the change does not reflect in the course platform, log out and back in or contact support so they can confirm the correct account is linked to your enrollment."
+  },
+  {
+    "id": "faq-023",
+    "course": "student-help-desk",
+    "section": "Student Records",
+    "question": "I need my transcript or progress report.",
+    "answer": "Most platforms let you download a progress report from your dashboard or account history. If you cannot find it, contact student support and ask for a transcript or completion summary, including your full name, course name, and enrollment period."
+  },
+  {
+    "id": "faq-024",
+    "course": "student-help-desk",
+    "section": "General Support",
+    "question": "Who should I contact if I'm not sure which issue I have?",
+    "answer": "Start with the support form or help center for the platform you are using. Include your course name, the issue you are seeing, and any error text or screenshots. Support can then route your request to the correct team, such as billing, technical support, or the instructor."
+  },
+  {
+    "id": "faq-025",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "Can I switch from one cohort to another?",
+    "answer": "Cohort changes depend on the provider and whether the new section still has seats. Check the course page or contact support with your current enrollment details to see whether a transfer is possible and whether the start date changes."
+  },
+  {
+    "id": "faq-026",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "I am trying to register, but the class is full.",
+    "answer": "Try joining the waitlist if one is available, or check whether a future cohort is opening. If the course is full for all sections, contact the provider and ask if they recommend a similar course or an upcoming session."
+  },
+  {
+    "id": "faq-027",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "Do I need to complete any onboarding before starting a course?",
+    "answer": "Some courses have onboarding steps, such as creating an account, confirming your email, or agreeing to course policies. Review the course welcome page and complete any required setup before the first lesson is due."
+  },
+  {
+    "id": "faq-028",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "The course says it is self-paced. Does that mean I can start anytime?",
+    "answer": "Self-paced usually means the course is available to enroll in and complete on your own schedule, subject to platform access and any completion deadlines. Check the course page for availability dates or expiration rules before enrolling."
+  },
+  {
+    "id": "faq-029",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "I can access the dashboard, but the course list is empty.",
+    "answer": "Refresh the page and confirm that your account is linked to the correct student profile. If the course still does not appear, contact support and include your login email and the course title so they can check whether the enrollment was recorded correctly."
+  },
+  {
+    "id": "faq-030",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "I see the course in my account, but the lessons are locked.",
+    "answer": "Check whether the course is set to begin on a later date or whether a prerequisite must be completed first. If the lock status is unexpected, contact the provider and share the lesson name and course title so they can check whether your access is configured correctly."
+  },
+  {
+    "id": "faq-031",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "Why does my course show as not started even though I enrolled?",
+    "answer": "Enrollment and course activation are sometimes separate steps. Confirm that you completed any onboarding or account verification, and check the course homepage for an activation or start button. If the status still looks wrong, contact support."
+  },
+  {
+    "id": "faq-032",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "The video keeps buffering during lectures.",
+    "answer": "Buffering is often caused by a weak connection or an unusually high number of open browser tabs. Try closing extra tabs, pausing other downloads, and moving to a stronger network connection. If the issue continues, report it with the video title and the time the interruption began."
+  },
+  {
+    "id": "faq-033",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "I cannot download the course materials.",
+    "answer": "Check whether the download option is available for your device and whether the file format is supported. Some courses require a desktop browser or a specific app for downloads. If the button is missing or the file fails, contact support with the course name and resource title."
+  },
+  {
+    "id": "faq-034",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "The page is stuck on loading after I sign in.",
+    "answer": "Try a hard refresh, clear the browser cache, or open the site in an incognito window. If the issue persists, it may be due to a browser extension or a temporary platform issue. Report the problem with the URL, browser version, and the time it happened."
+  },
+  {
+    "id": "faq-035",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "Can I use the course on a tablet or mobile device?",
+    "answer": "Many courses are mobile-friendly, but some features may be limited on tablets. Check the course page for supported devices and whether the assignment or viewing feature requires desktop access. If the app is not working properly, contact support."
+  },
+  {
+    "id": "faq-036",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "I keep being signed out automatically.",
+    "answer": "This can happen if your session expires or if the browser is blocking cookies. Check your browser settings, allow cookies if required, and sign in again. If the problem continues, contact support with your browser and device information."
+  },
+  {
+    "id": "faq-037",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "My browser says the site is not secure.",
+    "answer": "This usually indicates a certificate or browser issue rather than a course problem. Make sure your browser is up to date and try a different browser. If the warning remains, report it to support so they can check whether the platform certificate is valid."
+  },
+  {
+    "id": "faq-038",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "I have not received my refund yet.",
+    "answer": "Refund timing varies by payment method and provider. Check the refund policy and allow several business days for processing. If the status has not changed after the expected time frame, contact billing support with your order number and course name."
+  },
+  {
+    "id": "faq-039",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "Can I pay in installments for a course?",
+    "answer": "Installment plans depend on the provider and the specific course. Review the payment section on the course page for available plans. If installment options are not listed, contact billing support to ask whether they are available for your course."
+  },
+  {
+    "id": "faq-040",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "My payment is pending, but the course is already open.",
+    "answer": "Some payment methods may take time to clear while access is temporarily granted. Check your payment status and confirmation email. If the charge never settles, contact support and billing with the date of payment and the course name."
+  },
+  {
+    "id": "faq-041",
+    "course": "student-help-desk",
+    "section": "Deadlines and Extensions",
+    "question": "I need to withdraw from the course after the deadline.",
+    "answer": "Late withdrawals are usually only allowed in limited cases, such as medical or technical emergencies. Contact support or the instructor immediately with the reason and your course details. They can tell you whether an exception is possible."
+  },
+  {
+    "id": "faq-042",
+    "course": "student-help-desk",
+    "section": "Deadlines and Extensions",
+    "question": "Can I submit an assignment after the deadline if I have a valid reason?",
+    "answer": "Late submission is often decided by the course policy and the instructor?s discretion. Contact the instructor before the deadline if possible and explain the situation clearly. Include the assignment title and any supporting documentation if requested."
+  },
+  {
+    "id": "faq-043",
+    "course": "student-help-desk",
+    "section": "Deadlines and Extensions",
+    "question": "I missed a quiz and want to know whether there is a retake option.",
+    "answer": "Retakes are permitted only if the course settings allow them. Review the quiz or course policy page, then contact the instructor or support if the answer is unclear. They can confirm whether a retake or alternate assessment is available."
+  },
+  {
+    "id": "faq-044",
+    "course": "student-help-desk",
+    "section": "Certificates and Completion",
+    "question": "Do I need to finish every lesson to earn the certificate?",
+    "answer": "Most courses require completion of all mandatory lessons, quizzes, or assignments before the certificate is unlocked. Review the completion criteria on the course page or ask the instructor if any requirements are unclear."
+  },
+  {
+    "id": "faq-045",
+    "course": "student-help-desk",
+    "section": "Certificates and Completion",
+    "question": "I finished the course, but the completion badge is not updated.",
+    "answer": "Progress may take a short time to sync after your final activity is completed. Refresh the dashboard and wait a few hours. If the badge still does not appear, contact support with the course name and the date you completed the final task."
+  },
+  {
+    "id": "faq-046",
+    "course": "student-help-desk",
+    "section": "Certificates and Completion",
+    "question": "Can I re-download a certificate after it is issued?",
+    "answer": "Yes, many platforms keep previously issued certificates in your account history or profile. Check the certificates section of your dashboard and, if it is not there, contact student support and request a reissue with your course title and completion date."
+  },
+  {
+    "id": "faq-047",
+    "course": "student-help-desk",
+    "section": "Student Records",
+    "question": "I changed my name and need it updated on my course profile.",
+    "answer": "Update your profile in account settings first, then verify the name change is reflected on the course dashboard. If the platform still shows the old name, contact support and provide the correct legal name or preferred display name."
+  },
+  {
+    "id": "faq-048",
+    "course": "student-help-desk",
+    "section": "Student Records",
+    "question": "Can I access my old courses after graduation?",
+    "answer": "Access to archived or completed courses depends on the provider and the course platform. Check your account history or contact support to ask whether completed courses remain available for review or reference after graduation."
+  },
+  {
+    "id": "faq-049",
+    "course": "student-help-desk",
+    "section": "General Support",
+    "question": "I am not sure whether this is a course issue or a platform issue.",
+    "answer": "Describe the exact behavior, when it started, and whether it happens on more than one device. Include any error text and the course name. Support can then route the issue to the correct team, whether it is enrollment, access, or technical troubleshooting."
+  },
+  {
+    "id": "faq-050",
+    "course": "student-help-desk",
+    "section": "General Support",
+    "question": "Where can I submit a support ticket?",
+    "answer": "Most platforms have a help center or a contact support button in the profile or course dashboard. Include your course title, the problem you are facing, and any screenshots or error messages so the team can respond accurately and quickly."
+  },
+  {
+    "id": "faq-051",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "Can I apply for financial aid for this course?",
+    "answer": "Aid options vary by provider and course. Check the payment or scholarship section on the course page and contact the provider if the course is not clearly listed as eligible for aid or discounts."
+  },
+  {
+    "id": "faq-052",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "How do I know if a course is beginner-friendly?",
+    "answer": "Read the prerequisites and the course overview to see whether it is designed for beginners. If the description still seems unclear, contact the provider and ask whether the course assumes prior experience or includes introductory material."
+  },
+  {
+    "id": "faq-053",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "My course says it is archived. Can I still access it?",
+    "answer": "Archived courses may still be viewable depending on the platform and provider policy. Check the course page or contact support to see whether the archive is read-only or whether the content has been removed permanently."
+  },
+  {
+    "id": "faq-054",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "Why does the platform work on my laptop but not on my tablet?",
+    "answer": "Some features are optimized for desktop browsers and may not work the same on tablets or smaller screens. Check the device requirements on the course page and try the desktop version or mobile app if the feature you need is not supported on your tablet."
+  },
+  {
+    "id": "faq-055",
+    "course": "student-help-desk",
+    "section": "General Support",
+    "question": "How long does it usually take to get a support response?",
+    "answer": "Response times vary by provider and issue type, but most teams aim to answer support requests within one to two business days. If your case is urgent, mention that in your support request and include any relevant screenshots or order details."
+  },
+  {
+    "id": "faq-056",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "I enrolled in a course, but my account still shows me as not registered.",
+    "answer": "Enrollment confirmation may take a few minutes to sync across the platform. Check your confirmation email, refresh the dashboard, and verify that you are logged into the same account used during signup. If the status still shows as unregistered, contact support with your course name and order number."
+  },
+  {
+    "id": "faq-057",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "Can I join a course after it has already started?",
+    "answer": "Some courses allow late enrollment if seats are still available, while others are closed once the session begins. Review the course page for late start policies or contact the provider to ask whether a late enrollment exception is available."
+  },
+  {
+    "id": "faq-058",
+    "course": "student-help-desk",
+    "section": "Admissions and Enrollment",
+    "question": "I lost the confirmation email for my course registration.",
+    "answer": "Check your spam or junk folder first, then log in to your account and review your order or enrollment history. If you cannot find the record there, contact support and include your full name, the course name, and the email address used during registration."
+  },
+  {
+    "id": "faq-059",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "Will my progress be saved if I switch devices or log in on a different browser?",
+    "answer": "Most learning platforms sync your progress automatically across devices, but there are occasional delays. Make sure you are signed in with the same account, then refresh the course page. If your progress does not appear, contact support with the course name and the devices you used."
+  },
+  {
+    "id": "faq-060",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "The course dashboard says I have no access even though I paid earlier today.",
+    "answer": "Payment processing can sometimes take a little time before access is activated. Confirm the payment went through, check your email for a confirmation, and log out and back in. If the course still does not appear, contact support with your order number and the time of payment."
+  },
+  {
+    "id": "faq-061",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "I cannot watch a lesson because the subtitle track will not load.",
+    "answer": "Refresh the lesson page and try restarting the video. If the subtitles still fail, switch to another browser or disable browser extensions that may be interfering. If the problem persists, contact support with the video title and the browser version you are using."
+  },
+  {
+    "id": "faq-062",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "The quiz timer is counting down too fast and I think it is incorrect.",
+    "answer": "Check whether the timer is tied to your browser time or to a delayed sync from the platform. Refresh the page, make sure the device clock is correct, and try the quiz again in a private window. If the timer remains inaccurate, report it with the quiz name and the time it happened."
+  },
+  {
+    "id": "faq-063",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "I submitted my assignment, but it still shows as missing in my course dashboard.",
+    "answer": "Check the assignment page to confirm whether the submission uploaded successfully and whether the file format is supported. Submit again if needed, then refresh the dashboard. If the status still shows as missing, contact the instructor or support with the assignment name and submission time."
+  },
+  {
+    "id": "faq-064",
+    "course": "student-help-desk",
+    "section": "Course Access",
+    "question": "Can I download the lectures or course materials for offline study?",
+    "answer": "Download availability depends on the course and device settings. Check the resource or lecture page for a download option, and note whether the platform limits downloads to desktop devices. If the option is unavailable, contact support and ask whether offline access is allowed for your course."
+  },
+  {
+    "id": "faq-065",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "My refund request was denied. What can I do next?",
+    "answer": "Review the refund policy and the reason provided by the billing team. If you believe the decision was made in error or the policy was not clear, contact support and ask for a second review with your order number and the course title."
+  },
+  {
+    "id": "faq-066",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "I need a separate invoice for my employer or company.",
+    "answer": "Open your billing or order history section and look for a downloadable invoice. If the invoice is not available, contact billing support with your name, company name, and the course purchase details so they can issue a formal receipt or invoice."
+  },
+  {
+    "id": "faq-067",
+    "course": "student-help-desk",
+    "section": "Payments and Billing",
+    "question": "My card on file is expired, but I still need to finish enrolling in the course.",
+    "answer": "Update the payment method in your account billing settings before the course deadline. If you are unable to change it, contact billing support and ask whether they can provide an alternate payment option or hold your enrollment until payment is confirmed."
+  },
+  {
+    "id": "faq-068",
+    "course": "student-help-desk",
+    "section": "Deadlines and Extensions",
+    "question": "I need an extension because I was traveling and could not complete the work on time.",
+    "answer": "Extensions are usually granted only when the request is made before the deadline or under exceptional circumstances. Contact the instructor or course support as soon as possible with the reason, the assignment name, and the dates involved so they can assess whether an exception is possible."
+  },
+  {
+    "id": "faq-069",
+    "course": "student-help-desk",
+    "section": "Deadlines and Extensions",
+    "question": "Can I get credit for work I completed before I enrolled in the course?",
+    "answer": "This depends on the course policy and whether the work aligns with the current curriculum. Contact the instructor or support and provide details of the prior work, including dates and relevant course materials, so they can confirm whether it can be counted."
+  },
+  {
+    "id": "faq-070",
+    "course": "student-help-desk",
+    "section": "Certificates and Completion",
+    "question": "My certificate has my old legal name and I need it corrected.",
+    "answer": "Check whether the platform allows profile name updates in your account settings. If the certificate was already issued, contact support and request a reissue with the corrected name, including the course title and completion date."
+  },
+  {
+    "id": "faq-071",
+    "course": "student-help-desk",
+    "section": "Certificates and Completion",
+    "question": "I completed the final quiz, but the system still says I have not finished the course.",
+    "answer": "Course completion may not update immediately after the final assessment. Check whether all required modules, activities, or assignments are marked complete. If everything appears finished but the course still shows incomplete, contact support with the course name and the completion date."
+  },
+  {
+    "id": "faq-072",
+    "course": "student-help-desk",
+    "section": "Technical Support",
+    "question": "I am unable to reset my password from the mobile app.",
+    "answer": "Try the reset flow from the website instead of the app, or use the password reset email link from a browser. Confirm that you are using the same email address tied to the account and check spam folders. If the reset email still does not arrive, contact support with your account email and device type."
+  },
+  {
+    "id": "faq-073",
+    "course": "student-help-desk",
+    "section": "Student Records",
+    "question": "I need to merge two student accounts that were created with different emails.",
+    "answer": "Account merging is usually handled by support, especially if both accounts contain enrollment records. Contact support with both email addresses, your full name, and the course names attached to each account so they can check whether the records can be combined."
+  },
+  {
+    "id": "faq-074",
+    "course": "student-help-desk",
+    "section": "Student Records",
+    "question": "Can I export my progress report or course summary for my records?",
+    "answer": "Many platforms allow you to download a progress or completion summary from your dashboard. If the export option is missing, contact student support and ask for a transcript or summary that includes your courses, completion dates, and any certificates earned."
+  },
+  {
+    "id": "faq-075",
+    "course": "student-help-desk",
+    "section": "General Support",
+    "question": "I have a question about the course materials and I am not sure who to contact.",
+    "answer": "Start with the course help or support page and include the course title, the resource or lesson involved, and the exact question you have. Support can then route the request to the right team, whether it is the instructor, tech support, or the content provider."
+  }
+]

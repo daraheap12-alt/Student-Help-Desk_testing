@@ -1,0 +1,70 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-student_help_desk}
+      POSTGRES_USER: ${POSTGRES_USER:-student_help_desk}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-student_help_desk_dev}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${POSTGRES_USER:-student_help_desk} -d ${POSTGRES_DB:-student_help_desk}",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: ""
+      POSTGRES_HOST: postgres
+      POSTGRES_DB: ${POSTGRES_DB:-student_help_desk}
+      POSTGRES_USER: ${POSTGRES_USER:-student_help_desk}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-student_help_desk_dev}
+      LLM_PROVIDER: ${LLM_PROVIDER:-groq}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.3-70b-versatile}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+      INPUT_TOKEN_PRICE: ${INPUT_TOKEN_PRICE:-0}
+      OUTPUT_TOKEN_PRICE: ${OUTPUT_TOKEN_PRICE:-0}
+    ports:
+      - "8501:8501"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command:
+      [
+        "sh",
+        "-c",
+        "python db_init.py && streamlit run app.py --server.address=0.0.0.0 --server.port=8501",
+      ]
+
+  grafana:
+    image: grafana/grafana:latest
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-student_help_desk}
+      POSTGRES_USER: ${POSTGRES_USER:-student_help_desk}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-student_help_desk_dev}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:-admin}
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  grafana_data:

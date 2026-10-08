@@ -1,0 +1,16 @@
+[project]
+name = "student-help-desk-assistant"
+version = "0.1.0"
+description = "A local RAG assistant for the student help desk dataset"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "python-dotenv>=1.0.1",
+  "openai>=1.50.0",
+  "streamlit>=1.64.0",
+  "psycopg[binary]>=3.3.6",
+  "pandas>=3.0.6",
+]
+
+[tool.uv]
+package = false

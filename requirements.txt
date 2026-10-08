@@ -1,0 +1,5 @@
+python-dotenv>=1.0.1
+openai>=1.50.0
+streamlit>=1.64.0
+psycopg[binary]>=3.3.6
+pandas>=3.0.6
