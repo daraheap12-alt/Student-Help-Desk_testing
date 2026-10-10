@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 import os
 import time
 
@@ -106,6 +107,43 @@ st.markdown(
         margin-top: 0.25rem;
     }
 
+    .topic-list {
+        display: grid;
+        gap: 0.35rem;
+        margin: 0.4rem 0 1.25rem;
+    }
+
+    .topic-row {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        min-height: 2.5rem;
+        padding: 0.35rem 0.55rem;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        color: #e4e9f0;
+        font-size: 0.9rem;
+        line-height: 1.25;
+        transition: background-color 120ms ease, border-color 120ms ease;
+    }
+
+    .topic-row:hover {
+        background: #2b323d;
+        border-color: #3a4552;
+    }
+
+    .topic-icon {
+        display: inline-flex;
+        flex: 0 0 1.8rem;
+        align-items: center;
+        justify-content: center;
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 8px;
+        background: #343e4b;
+        font-size: 1rem;
+    }
+
     .page-eyebrow {
         color: var(--accent);
         font-size: 0.75rem;
@@ -178,6 +216,17 @@ TOPICS = [
 DEFAULT_INPUT_PRICE = 0.0
 DEFAULT_OUTPUT_PRICE = 0.0
 
+TOPIC_ICONS = {
+    "Admissions and Enrollment": "🎓",
+    "Certificates and Completion": "🏅",
+    "Course Access": "📚",
+    "Deadlines and Extensions": "📅",
+    "General Support": "💬",
+    "Payments and Billing": "💳",
+    "Student Records": "🗂️",
+    "Technical Support": "🛠️",
+}
+
 
 if "history" not in st.session_state:
     st.session_state.history = []
@@ -245,8 +294,19 @@ def chat_page():
         )
         st.subheader("Help topics")
         st.caption(f"{len(getattr(assistant, 'index', []))} questions in the local dataset")
-        for section in sections:
-            st.markdown(f"- {section}")
+        topic_rows = [
+            (
+                '<div class="topic-row">'
+                f'<span class="topic-icon" role="img" aria-label="">'
+                f'{html.escape(TOPIC_ICONS.get(section, "📌"))}</span>'
+                f'<span>{html.escape(section)}</span></div>'
+            )
+            for section in sections
+        ]
+        st.markdown(
+            '<div class="topic-list">' + "".join(topic_rows) + "</div>",
+            unsafe_allow_html=True,
+        )
 
         st.subheader("Token pricing (USD / 1M)")
         st.number_input(
